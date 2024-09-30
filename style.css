@@ -16,14 +16,46 @@ body {
 	padding: 15px;
 }
 
-
-ul {
-	display: flex;
+.header-links,
+.hero-secondary {
 	font-size: 18px;
+	color: #e5e7eb;
+}
+
+.header-links {
+	display: flex;
 	gap: 16px;
 	list-style-type: none;
 }
 
-li {
-	color: #E5E7EB;
+.first-section {
+	display: flex;
+	justify-content: space-around;
+	background-color: #1f2937;
+	padding: 50px;
 }
+
+.hero-main {
+	font-size: 48px;
+	color: #f9faf8;
+	font-weight: 900;
+}
+
+button {
+	background-color: #3882F6;
+	color: white;
+	border-radius: 7px;
+	padding: 5px;
+	width: 80px;
+	border: 0;
+	margin-top: 15px;
+}
+
+.placeholder-image {
+	justify-item: center;
+	background-color: grey;
+	color: white;
+	width: 600px;
+	height: 260px;
+}
+
